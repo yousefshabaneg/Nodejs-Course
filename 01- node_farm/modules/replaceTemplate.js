@@ -11,3 +11,5 @@ module.exports = (temp, product) => {
     .replace(/{%ID%}/g, product.id);
   return output;
 };
+
+// TODO BUG FIXED

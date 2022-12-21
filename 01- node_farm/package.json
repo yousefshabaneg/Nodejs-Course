@@ -1,0 +1,12 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "dev": "nodemon index"
+  },
+  "author": "Yousef Shaban",
+  "license": "ISC"
+}
