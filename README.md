@@ -3,7 +3,7 @@
 # NodeJS Course
 <p>This is a repository for documenting my learning journey in Nodejs using "Node.js, Express, MongoDB & More: The Complete Bootcamp 2023"</p>
 <p>By <a href="https://github.com/jonasschmedtmann" style="text-align:center;">Jonas Schmedtman</a></p>
-- - - -
+
 ## Advices
 - This course is one of the best choices to get a good start in Node.js back-end development.
 - Jonas makes it very clear in his tutorials that he will walk you through the process from very beginner to advanced level, and the rest, of course, will be your mission.
