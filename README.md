@@ -14,5 +14,5 @@
 - - - -
 ### Best Wishes, Yousef Shaban
 ### Resources
-- <a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Udemy Course 2022: From Zero to Expert</a>
-- <a href="https://github.com/jonasschmedtmann/complete-javascript-course">GitHub Repository</a>
+- <a href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/">Node.js, Express, MongoDB & More: The Complete Bootcamp 2023</a>
+- <a href="https://github.com/jonasschmedtmann/complete-node-bootcamp">GitHub Repository</a>
