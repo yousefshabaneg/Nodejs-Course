@@ -45,7 +45,10 @@ const userSchema = new mongoose.Schema(
         message: 'Passwords do not match'
       }
     },
-    photo: String,
+    photo: {
+      type: String,
+      default: 'default.jpg'
+    },
     passwordChangedAt: Date,
     passwordResetToken: String,
     passwordResetExpires: Date,

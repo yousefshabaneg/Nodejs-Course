@@ -3,6 +3,11 @@ const tourController = require('../controllers/tourController');
 const AuthMiddleware = require('../middleware/auth.middleware');
 const reviewRouter = require('./../routes/reviewRoutes');
 
+const {
+  uploadTourImages,
+  resizeTourImages
+} = require('./../middleware/multer.middleware');
+
 // POST  /tour/234fad4/reviews
 // GET  /tour/234fad4/reviews
 // GET  /tour/234fad4/reviews/123456
@@ -51,6 +56,8 @@ router
   .patch(
     AuthMiddleware.protect,
     AuthMiddleware.restrictTo('admin', 'lead-guide'),
+    uploadTourImages,
+    resizeTourImages,
     tourController.updateTour
   )
   .delete(
