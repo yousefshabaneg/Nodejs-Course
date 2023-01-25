@@ -1,6 +1,9 @@
 const nodemailer = require('nodemailer');
 const pug = require('pug');
 const htmlToText = require('html-to-text');
+const sgMail = require('@sendgrid/mail');
+
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 module.exports = class Email {
   constructor(user, url) {
@@ -46,7 +49,8 @@ module.exports = class Email {
     };
 
     //3) Create a transport and send email.
-    await this.newTransport().sendEmail(mailOptions);
+    // await this.newTransport().sendEmail(mailOptions);
+    await sgMail.send(mailOptions); //using send grid.
   }
 
   async sendWelcome() {
